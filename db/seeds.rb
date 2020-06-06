@@ -14,14 +14,14 @@ puts "creating all"
 Location.create(
   name: 'Italy',
   description: 'my favourite place',
-  location: 'Rome pizza hut'
+  location: 'venice'
   )
 
 
   Location.create(
     name: 'spain',
     description: 'my least favourite place',
-    location: 'spain pizza hut'
+    location: 'madrid'
     )
 
 
