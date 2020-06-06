@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Location.destroy_all
+
+puts "destroyed all"
+
+puts "creating all"
+
+Location.create(
+  name: 'Italy',
+  description: 'my favourite place',
+  location: 'Rome pizza hut'
+  )
+
+
+  Location.create(
+    name: 'spain',
+    description: 'my least favourite place',
+    location: 'spain pizza hut'
+    )
+
+
