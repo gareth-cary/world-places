@@ -1,14 +1,17 @@
-<h1>locations</h1>
 
+<div class="index-background-image">
+  <h1 class="index-title">Locations visited in the World</h1>
+  <p class="index-title">Gareth Cary</p>
+</div>
 
- <% @locations.each do |location| %>
- <%= link_to(location_path(location), class: "card-links") do %>
-      <div class="card-product">
-        <div class="card-product-infos">
-          <h3>Country:  <em><%= "#{location.name}" %></em></h3>
-          <h4>info:  <em> <%= "#{location.description}" %></em></h4>
-          <p>more info: <%= "#{location.location}" %></p>
+   <% @locations.each do |location| %>
+   <%= link_to(location_path(location), class: "card-links") do %>
+        <div class="card-product">
+          <div class="card-product-infos">
+            <h3>Country:  <em><%= "#{location.name}" %></em></h3>
+            <h4>Description:  <em> <%= "#{location.description}" %></em></h4>
+            <p>Location: <%= "#{location.location}" %></p>
+          </div>
         </div>
-      </div>
-      <% end %>
-      <% end %>
+        <% end %>
+        <% end %>

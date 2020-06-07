@@ -13,15 +13,25 @@ puts "creating all"
 
 Location.create(
   name: 'Italy',
-  description: 'my favourite place',
-  location: 'venice'
+  description: 'Holiday with the girlfriend',
+  location: 'Venice'
   )
 
 
-  Location.create(
-    name: 'spain',
-    description: 'my least favourite place',
-    location: 'madrid'
-    )
+Location.create(
+  name: 'Spain',
+  description: 'My least favourite place',
+  location: 'Madrid'
+  )
 
+Location.create(
+  name: 'Germany',
+  description: 'Work trip where I did not work',
+  location: 'Berlin'
+  )
 
+Location.create(
+  name: 'Zimbabwe',
+  description: 'Family live there',
+  location: 'Harare'
+  )
