@@ -4,14 +4,16 @@
   <p class="index-title">Gareth Cary</p>
 </div>
 
+
+<div class="cards-inline">
+   <div class="grid-card">
    <% @locations.each do |location| %>
    <%= link_to(location_path(location), class: "card-links") do %>
-        <div class="card-product">
-          <div class="card-product-infos">
-            <h3>Country:  <em><%= "#{location.name}" %></em></h3>
-            <h4>Description:  <em> <%= "#{location.description}" %></em></h4>
-            <p>Location: <%= "#{location.location}" %></p>
-          </div>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= location.image %>)">
+          <h3><%= "#{location.name}" %></h3>
+          <p><em><%= "#{location.location}" %></em></p>
         </div>
         <% end %>
         <% end %>
+    </div>
+</div>
