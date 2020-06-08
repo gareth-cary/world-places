@@ -15,7 +15,13 @@ const initMapbox2 = () => {
     const markers = JSON.parse(mapElement.dataset.markers);
     markers.forEach((marker) => {
       const popup2 = new mapboxgl.Popup().setHTML(marker.infoWindowtwo);
-    new mapboxgl.Marker()
+      const element = document.createElement('div');
+        element.className = 'marker';
+        element.style.backgroundImage = `url('${marker.image_url}')`;
+        element.style.backgroundSize = '30px 30px';
+        element.style.width = '30px';
+        element.style.height = '30px';
+    new mapboxgl.Marker(element)
       .setLngLat([ marker.lng, marker.lat ])
       .setPopup(popup2)
       .addTo(map);
