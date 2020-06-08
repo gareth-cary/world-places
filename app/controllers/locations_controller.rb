@@ -8,7 +8,7 @@ class LocationsController < ApplicationController
       [{
         lat: @location.latitude,
         lng: @location.longitude,
-        # infoWindowtwo: render_to_string(partial: "info_window")
+        infoWindowtwo: render_to_string(partial: "info_windowtwo", locals: { location: location })
       }]
     end
 

@@ -1,12 +1,12 @@
 import mapboxgl from 'mapbox-gl';
 
-const initMapbox = () => {
-  const mapElement = document.getElementById('map');
+const initMapbox2 = () => {
+  const mapElement = document.getElementById('map2');
 
   if (mapElement) { // only build a map if there's a div#map to inject into
     mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
     const map = new mapboxgl.Map({
-      container: 'map',
+      container: 'map2',
       style: 'mapbox://styles/mapbox/streets-v10'
     });
 
@@ -14,10 +14,10 @@ const initMapbox = () => {
 
     const markers = JSON.parse(mapElement.dataset.markers);
     markers.forEach((marker) => {
-      const popup = new mapboxgl.Popup().setHTML(marker.infoWindow);
+      const popup2 = new mapboxgl.Popup().setHTML(marker.infoWindowtwo);
     new mapboxgl.Marker()
       .setLngLat([ marker.lng, marker.lat ])
-      .setPopup(popup)
+      .setPopup(popup2)
       .addTo(map);
   });
 
@@ -32,6 +32,4 @@ fitMapToMarkers(map, markers);
   }
 };
 
-export { initMapbox };
-
-
+export { initMapbox2 };
