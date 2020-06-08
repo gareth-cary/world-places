@@ -16,4 +16,16 @@ class LocationsController < ApplicationController
     @locations = Location.all
   end
 
+  def map
+     @locations = Location.geocoded
+
+    @markers = @locations.map do |location|
+      {
+        lat: location.latitude,
+        lng: location.longitude
+      }
+    end
+  end
 end
+
+
