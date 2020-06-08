@@ -1,4 +1,7 @@
 
+<%= render "navbar" %>
+
+
 <div class="index-background-image">
   <h1 class="index-title">Locations visited in the World</h1>
   <p class="index-title">Gareth Cary</p>
@@ -10,8 +13,12 @@
    <% @locations.each do |location| %>
    <%= link_to(location_path(location), class: "card-links") do %>
       <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= location.image %>)">
-          <h3><%= "#{location.name}" %></h3>
-          <p><em><%= "#{location.location}" %></em></p>
+          <div class="name-index-card">
+            <h3><%= "#{location.name}" %></h3>
+          </div>
+          <div class="description">
+            <p><%= "#{location.location}" %></p>
+          </div>
         </div>
         <% end %>
         <% end %>
