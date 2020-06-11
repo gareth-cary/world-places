@@ -20,7 +20,8 @@ Location.create(
   imageone: 'italy-holiday/italy-venice-holiday.png',
   imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
   imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imagefour: 'italy-holiday/italy-venice-holiday-4.png',
+  date: '10-09-2018 - 16-09-2018'
   )
 puts "seed 1"
 
@@ -90,6 +91,7 @@ Location.create(
   imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
   imagethree: 'italy-holiday/italy-venice-holiday-3.png',
   imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+
   )
 
 puts "seed 7"

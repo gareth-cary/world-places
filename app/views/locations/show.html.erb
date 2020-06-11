@@ -4,6 +4,7 @@
 
 <div class="banner-show-page" style="background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= @location.image %>)">
   <h1><%= @location.name %> - <%= @location.location %></h1>
+
   <br>
   <p><%= link_to "Home", root_path %></p>
 </div>
@@ -15,6 +16,8 @@
     <div class="col-lg-6">
       <div class="info-show-page">
         <h2 style="text-align: center;"><%= @location.trip %> to <%= @location.location %></h2>
+        <br>
+        <h2 class="date">Date: <%= @location.date %></h2>
         <br>
         <p><%= @location.description %></p>
       </div>

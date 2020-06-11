@@ -10,16 +10,19 @@
     color: white;
     text-align: center;
     font-size: 50px;
+    font-family: 'Lora', serif;
 
   }
   p {
     text-align: center;
+    font-family: 'Lora', serif;
   }
   a {
     color: white;
     font-size: 20px;
     border: 2px solid white;
     padding: 5px 20px;
+    font-family: 'Lora', serif;
     &:hover {
       text-decoration: none;
       background-color: white;
@@ -38,4 +41,15 @@
 .info-show-page {
   margin-bottom: 30px;
   padding: 10px;
+  h2 {
+    font-family: 'Lora', serif;
+  }
+  p {
+    font-family: 'Lora', serif;
+  }
+}
+
+.date {
+  font-size: 20px;
+  color: grey;
 }

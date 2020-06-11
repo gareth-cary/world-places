@@ -11,4 +11,7 @@
   box-shadow: 0 0 10px 10px lightgrey;
   position: sticky;
   top: 80px;
+   &:hover {
+    cursor: pointer;
+   }
 }
