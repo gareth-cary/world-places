@@ -55,14 +55,15 @@ puts "seed 4"
 
 Location.create(
   name: 'China',
-  description: 'Chapterhouse Theatre Tour',
+  description: 'In my life I have visited China Beijing on three occasions while working for Chapterhouse Theatre Company. I have had the joy of performing ‘The Jungle Book’, ‘Jane Eyre’ and ‘Little Women’ at the Beijing Nine Theatre. China is one of my favourite places in the whole World. Nothing beats seeing The Great Wall of China, it is a must see while in Beijing, in fact, I have gone three times now, and would probably go a forth.',
   location: 'Beijing',
   image: 'https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'china-beijing/china-beijing.png',
+  imagetwo: 'china-beijing/china-beijing2.png',
+  imagethree: 'china-beijing/china-beijing3.png',
+  imagefour: 'china-beijing/china-beijing4.png',
+  date: '2019 & 2018 & 2016'
   )
 
 puts "seed 5"
