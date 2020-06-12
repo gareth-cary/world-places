@@ -41,21 +41,22 @@ puts "seed 3"
 
 Location.create(
   name: 'Zimbabwe',
-  description: 'Family live there',
+  description: 'This is where my dads side of the family come from. I was very little when I visited Zimbabwe, but I have many fond memories. Fishing for tiger fish at lake kariba is probaly my fondest memory as was seeing my family. I will have to try and dig up some of the old photos from that holiday so I can display them on this website. ',
   location: 'Harare',
   image: 'https://images.unsplash.com/photo-1504432193756-eb26a4ffaaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80',
   trip: 'Holiday',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'https://images.unsplash.com/photo-1575285272212-d52e915d01c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+  imagetwo: 'https://images.unsplash.com/photo-1574083255662-cc25d0deb08e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1060&q=80',
+  imagethree: 'https://images.unsplash.com/photo-1539645094218-ca89b13c16c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+  imagefour: 'https://images.unsplash.com/photo-1562560843-3bd973a81935?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+  date: '2000 & 1998 & 1996'
   )
 
 puts "seed 4"
 
 Location.create(
   name: 'China',
-  description: 'In my life I have visited China Beijing on three occasions while working for Chapterhouse Theatre Company. I have had the joy of performing ‘The Jungle Book’, ‘Jane Eyre’ and ‘Little Women’ at the Beijing Nine Theatre. China is one of my favourite places in the whole World. Nothing beats seeing The Great Wall of China, it is a must see while in Beijing, in fact, I have gone three times now, and would probably go a forth.',
+  description: 'In my life I have visited China Beijing on three occasions while working for Chapterhouse Theatre Company. I have had the joy of performing ‘The Jungle Book’, ‘Jane Eyre’ and ‘Little Women’ at the Beijing Nine Theatre. China is one of my favourite places in the World. Nothing beats seeing The Great Wall of China, it is a must see while in Beijing, in fact, I have gone three times now, and would probably go a forth.',
   location: 'Beijing',
   image: 'https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
@@ -71,7 +72,7 @@ puts "seed 5"
 Location.create(
   name: 'Saudi Arabia',
   description: 'Scarlet Entertainments Theatre Tour',
-  location: 'Gara Mountain',
+  location: 'Saudi Arabia',
   image: 'https://images.unsplash.com/photo-1551041777-575d3855ca71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
   imageone: 'italy-holiday/italy-venice-holiday.png',
@@ -113,14 +114,15 @@ puts "seed 8"
 
 Location.create(
   name: 'China',
-  description: 'Theatre Tour Chapterhouse Theatre Company',
+  description: 'In my life I have visited China Shanghai on three occasions while working for Chapterhouse Theatre Company. I have had the joy of performing ‘The Jungle Book’, ‘Jane Eyre’ and ‘Little Women’ at the Shanghai Grand Theatre. China is one of my favourite places in the World. The shopping and the markets in Shanghai were incredible. Having started all of my tours in Beijing, it was incredible to see the difference of the two cities. Shanghai is definitely a province I want to visit again.',
   location: 'Shanghai',
   image: 'https://images.unsplash.com/photo-1455459182396-ae46100617cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
   trip: 'Work trip',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'china-shanghai/china-shanghai.png',
+  imagetwo: 'china-shanghai/china-shanghai2.png',
+  imagethree: 'china-shanghai/china-shanghai3.png',
+  imagefour: 'china-shanghai/china-shanghai4.png',
+  date: '2019 & 2018 & 2016'
   )
 
 puts "seed 9"
